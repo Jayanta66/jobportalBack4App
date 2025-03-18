@@ -1,3 +1,4 @@
+FROM maven:3.9.9-openjdk-11-slim AS build
 WORKDIR /
 COPY . .
 RUN mvn clean install package
