@@ -1,4 +1,4 @@
-FROM openjdk:11-jdk-slim AS build
+FROM openjdk:11-jdk-alpine AS build
 ARG JAR_FILE=target/*.jar
 COPY ${JAR_FILE} jobportal-0.0.1.jar
 EXPOSE 8080
