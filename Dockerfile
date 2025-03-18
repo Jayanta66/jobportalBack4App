@@ -1,9 +1,7 @@
 #
 # Build stage
 #
-#FROM maven:3.9.9-jdk-17-alpine AS build
-
-FROM maven:3.9.9-jdk-17-alpine
+FROM maven:3.9.9-jdk-17-alpine AS build
 COPY src /
 COPY pom.xml /
 RUN mvn -f /pom.xml clean package
