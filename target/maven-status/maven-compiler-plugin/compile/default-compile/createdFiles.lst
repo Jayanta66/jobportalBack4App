@@ -1,7 +1,0 @@
-jobportal\repository\JobRepository.class
-jobportal\repository\UserRepository.class
-jobportal\beans\User.class
-jobportal\service\JobService.class
-jobportal\JobPortalApplication.class
-jobportal\beans\Job.class
-jobportal\controller\AppController.class
