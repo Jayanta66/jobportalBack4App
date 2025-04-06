@@ -10,12 +10,11 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.jp</groupId>
-	<artifactId>jobportal</artifactId>
-	<version>0.0.1</version>
-	<name>jobportal</name>
+	<artifactId>app</artifactId>
+	<name>app</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>11</java.version>
 		    <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
 	</properties>
 	<dependencies>
