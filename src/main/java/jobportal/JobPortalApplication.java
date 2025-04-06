@@ -12,7 +12,7 @@ public class JobPortalApplication extends SpringBootServletInitializer {
 	}
  //  docker build -t jobportal-0.0.1 .
 //	docker run -p 8080:8080 jobportal-0.0.1
-	
+	//
 	//  docker manifest inspect jobportal-0.0.1:latest
 	
 	///  docker manifest create my_manifest_list:latest jobportal-0.0.1:latest
