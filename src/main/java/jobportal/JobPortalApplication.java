@@ -16,7 +16,7 @@ public class JobPortalApplication extends SpringBootServletInitializer {
 	//
 	//  docker manifest inspect jobportal-0.0.1:latest
 	
-	///  docker manifest create my_manifest_list:latest jobportal-0.0.1:latest
+	// docker manifest create my_manifest_list:latest jobportal-0.0.1:latest
 
 
 }
