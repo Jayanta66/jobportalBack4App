@@ -11,11 +11,12 @@
 	</parent>
 	<groupId>com.jp</groupId>
 	<artifactId>app</artifactId>
+	<version>0.0.1</version>
 	<name>app</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
-		    <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
+		<spring-boot.repackage.skip>true</spring-boot.repackage.skip>
 	</properties>
 	<dependencies>
 		<dependency>
